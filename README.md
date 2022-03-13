@@ -3,7 +3,7 @@
 This is a multi-agent system in Jason modelling a simplified railroad scenario. The MAS includes a set of cognitive agents following the BDI architecture, i.e., a train, a set of signals and a railroad junction. The train will move along a circular track while collecting and dropping passengers at stations, stopping at red lights and switching track
 at the junction when required. A custom environment in Java will handle agent interactions, provide functions to agents and a graphical interface.
 
-This work is intended to be run from _jedit_ (or equivalent) and its output is the list of actions executed as displayed on a console and a live visual representation of agents performing their actions and interacting.
+This work is intended to be run from _jedit_ (or equivalent) and its output is the list of actions executed as displayed on a console and a live visual representation of agents performing their actions and interacting. The _MyTrain.mas2j_ file should be opened from _jedit_ and the MAS should be run from there, as all agents should appear in the program agents section.
 
 ### Scenario
 
