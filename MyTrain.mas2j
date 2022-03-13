@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS train {
+    environment: TrainEnv(gui) // use "nogui" as parameter to not show the GUI
+    agents: train;
+			signal1;
+			signal2;
+			signal3;
+			lone_signal;
+			junction;
+}

@@ -1,0 +1,21 @@
+/* Initial beliefs */
++points(normal). /* not points(normal) is equivalent to points(reverse)
++isNot(occupied).
+
+/* Goals */
+!switch(points).
+
+/* Plans */
++!switch(points): true
+	<- .wait(5000);
+		-isNot(occupied);
+		+is(occupied);
+		switch(reverse);
+		-points(normal);
+		.wait(5000);
+		-is(occupied);
+		+isNot(occupied);
+		switch(normal);
+		+points(normal);
+		!switch(points).
+		

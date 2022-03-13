@@ -1,0 +1,14 @@
+/* Goals */
+
+!change(colour).
+
+/* Plans */
+
++!change(colour) : true
+    <- turn_red(lone);
+	   .wait(4000);
+	   turn_yellow(lone);
+	   .wait(4000);
+	   turn_green(lone);
+	   .wait(4000);
+	   !change(colour).
